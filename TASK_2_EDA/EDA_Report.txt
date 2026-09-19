@@ -1,0 +1,138 @@
+CODSOFT DATA ANALYTICS INTERNSHIP
+TASK 2 – EXPLORATORY DATA ANALYSIS (EDA)
+
+1. PROJECT TITLE
+Retail Sales Data – Exploratory Data Analysis
+
+2. OBJECTIVE
+The objective of this task is to explore and analyze a retail sales
+dataset using Python and identify important trends, patterns,
+relationships, and business insights.
+
+3. DATASET OVERVIEW
+The dataset contains retail transaction information including:
+
+- Transaction ID
+- Date
+- Customer ID
+- Gender
+- Age
+- Product Category
+- Quantity
+- Price per Unit
+- Total Amount
+
+Total Records: 1000
+Total Columns: 9
+
+4. DATA CLEANING
+The cleaned dataset from Task 1 was used for this analysis.
+
+The dataset was checked for:
+- Missing values
+- Duplicate records
+- Incorrect data types
+- Inconsistent values
+
+No missing values were found.
+No duplicate rows were found.
+
+5. DESCRIPTIVE ANALYSIS
+
+Total Revenue: 456000
+Average Transaction Amount: 456.0
+Total Quantity Sold: 2514
+Average Customer Age: 41.392
+
+Gender values:
+- Male
+- Female
+
+Product Categories:
+- Beauty
+- Clothing
+- Electronics
+
+Age Range: 18 to 64
+Quantity Range: 1 to 4
+Price per Unit Range: 25 to 500
+
+6. BUSINESS INSIGHTS
+
+1. Clothing was the best-selling product category based on
+   total quantity sold.
+
+2. Electronics generated the highest total revenue among the
+   product categories.
+
+3. Female customers were the most common customer group in
+   the dataset.
+
+4. The average customer age was approximately 41 years.
+
+5. The total revenue generated from all transactions was
+   456000.
+
+6. The analysis of category and gender revenue shows how
+   purchasing revenue varies between male and female customers
+   across different product categories.
+
+7. OUTLIER ANALYSIS
+
+The Interquartile Range (IQR) method was used to identify
+outliers in Total Amount.
+
+Q1: 60.0
+Q3: 900.0
+IQR: 840.0
+Lower Bound: -1200.0
+Upper Bound: 2160.0
+
+Number of Outliers: 0
+
+Therefore, no outliers were detected in the Total Amount column.
+
+8. VISUALIZATIONS
+
+The following visualizations were created using Python:
+
+1. Revenue by Product Category
+   File: charts/01_revenue_by_category.png
+
+2. Number of Transactions by Product Category
+   File: charts/02_transactions_by_category.png
+
+3. Revenue by Gender
+   File: charts/03_revenue_by_gender.png
+
+4. Revenue by Age Group
+   File: charts/04_revenue_by_age_group.png
+
+5. Quantity vs Total Amount
+   File: charts/05_quantity_vs_total_amount.png
+
+6. Category vs Gender Revenue
+   File: charts/06_category_vs_gender_revenue.png
+
+These charts help understand sales distribution, customer
+characteristics, category performance, and relationships between
+different variables.
+
+9. CONCLUSION
+
+The EDA provides a clear understanding of the retail sales dataset.
+Clothing has the highest quantity of products sold, while Electronics
+generates the highest revenue. The dataset contains customers from
+different age groups and genders, allowing further customer and sales
+analysis.
+
+The analysis can be used as a foundation for creating dashboards
+and developing deeper business insights in future tasks.
+
+10. TOOLS USED
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Visual Studio Code
